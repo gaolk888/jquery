@@ -1,0 +1,32 @@
+@charset "gb2312";
+/* CSS Document */
+
+#hy_full_window{ position:absolute; z-index:9998; background:#000000; width:100%; top:0px; left:0px;filter:alpha(opacity=50);opacity: 0.5;}
+#hy_Opendiv{ position:absolute; z-index:9999; border:1px solid #add9c1; -moz-box-shadow: 4px #DBD9D9;-webkit-box-shadow: 4px #DBD9D9;box-shadow: 4px #DBD9D9;  background:#ecf0f3;}
+#hy_Opendiv h3{ line-height:48px; border-bottom:1px solid #e4e7ea; position:relative; color:#3cb175; font-family:"Î¢ÈíÑÅºÚ"; font-size:20px; padding-left:30px; font-weight:normal;}
+#hy_Opendiv h3 #hy_Opendiv_close{ display:block; width:40px; height:45px; position:absolute;right:4px; top:0px; cursor:pointer;  background:url(../images/open_close_bg.png) center center no-repeat; line-height:45px; -webkit-transition: -webkit-transform 0.5s ease-out;
+	-moz-transition: -moz-transform 0.5s ease-out;
+	-o-transition: -o-transform 0.5s ease-out;
+	-ms-transition: -ms-transform 0.5s ease-out;}
+#hy_Opendiv h3 #hy_Opendiv_close:hover{
+	background:#71c59a url(../images/open_close_hover.png) center center no-repeat;
+	-webkit-transform: rotateZ(180deg);
+    -moz-transform: rotateZ(180deg);
+    -o-transform: rotateZ(180deg);
+    -ms-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);}
+.hy_Opendiv_content{ padding:10px; min-height:100px; font-size:14px; border-top:1px solid #f2f4f7;}
+#Open_confirm_ok{ display: inline-block; width:100px; height:35px; line-height:35px; text-align:center; font-size:14px; color:white; background:#4ebe85; margin-left:40px; border-radius:4px; }
+#Open_confirm_no{ display: inline-block; width:100px; height:35px; line-height:35px; text-align:center; font-size:14px; color:white; background:#d1d4d5;border-radius:4px; }
+#Open_confirm_ok:hover{background:#3cb175;}
+#Open_confirm_no:hover{background:#b1b1b1;}
+.hy_confirm_wrap{ width:240px; margin:20px auto 35px auto; height:35px;}
+.Open_state_success{ width:400px; min-height:150px;}
+.Open_state_success span{ display:block; background:url(../images/open_alert_m_e_03.png); height:50px; width:50px; margin:40px auto 20px;}
+.Open_state_success p{ text-align:center; font-size:14px; color:#8bc1aa; line-height:24px; padding:0 20px;}
+.Open_state_error{ width:400px; min-height:150px;}
+.Open_state_error span{ display:block; background:url(../images/Open_alert_m_s_06.png); height:50px; width:50px; margin:40px auto 20px;}
+.Open_state_error p{ text-align:center; font-size:14px; color:#d67575; line-height:24px; padding:0 20px;}
+.Open_state_load span{ background:url(../images/big_load.gif); display:inline-block; width:50px; height:56px; margin-right:10px; margin-bottom:-25px;}
+.Open_state_load p{ font-size:14px; color:#6f6f6f; text-align:center;}
+.hy_Opendiv_loading{ min-height:60px;}
